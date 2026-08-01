@@ -1,17 +1,41 @@
 aid: geltor
 name: Geltor
-description: 'Geltor is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Geltor is a biodesign company founded in 2015 by Alex Lorestani and Nick
+  Ouzounov that engineers animal-free designer proteins, peptides and polypeptides
+  and manufactures them through precision fermentation. Its Biodesigner AI computational
+  biology platform is used to imagine, screen and optimize novel protein sequences,
+  which are then scaled commercially as ingredients for beauty and personal care, specialty
+  nutrition and medical/life-science applications. The portfolio includes HumaColl 21
+  (biomimetic human collagen), HumaColl 21 Select (a matrikine peptide complex), Elastapure
+  (biomimetic human elastin), Collume and Caviance (vegan collagens) and PrimaColl,
+  a Type XXI signaling collagen and the first biotech-derived collagen to receive an
+  FDA GRAS "no questions" letter for ingestible use. Geltor sells business-to-business
+  to brand formulators and manufacturers; it publishes no public developer API, SDK
+  or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/geltor/refs/heads/main/apis.yml
+image: https://geltor.com/wp-content/themes/_geltor/img/logo.svg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass
 specificationVersion: '0.20'
 created: '2026-08-01'
 modified: '2026-08-01'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Proteins
+- Peptides
+- Ingredients
+- Beauty and Personal Care
+- Cosmetics
+- Nutrition
+- Precision Fermentation
+- Synthetic Biology
+- Artificial Intelligence
+- Materials
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +44,51 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://geltor.com/
+- type: SecondaryMarket
   url: https://forgeglobal.com/geltor_stock/
+- type: About
+  url: https://geltor.com/about-us/
+- type: Products
+  url: https://geltor.com/products/
+- type: Platform
+  url: https://geltor.com/platform/
+- type: Solutions
+  url: https://geltor.com/solutions/
+- type: Blog
+  url: https://geltor.com/blog/
+- type: BlogRSS
+  url: https://geltor.com/blog/feed/
+- type: Press
+  url: https://geltor.com/press/
+- type: PressRSS
+  url: https://geltor.com/press/feed/
+- type: Contact
+  url: https://geltor.com/contact/
+- type: Support
+  url: https://geltor.com/contact/
+- type: Partners
+  url: https://geltor.com/partners/
+- type: Careers
+  url: https://geltor.com/careers/
+- type: Sustainability
+  url: https://geltor.com/impact/
+- type: TermsOfService
+  url: https://geltor.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://geltor.com/privacy-policy/
+- type: TermsOfSale
+  url: https://geltor.com/terms-conditions-of-sale/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/geltor-inc.
+- type: LLMsTxt
+  url: llms/geltor-llms.txt
+- type: WellKnown
+  url: well-known/geltor-well-known.yml
+- type: DomainSecurity
+  url: security/geltor-domain-security.yml
+x-enrichment:
+  date: '2026-08-01'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
