@@ -13,6 +13,17 @@ description: 'Geltor is a biodesign company founded in 2015 by Alex Lorestani an
   to brand formulators and manufacturers; it publishes no public developer API, SDK
   or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/geltor/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://geltor.com/wp-content/themes/_geltor/img/logo.svg
 x-type: company
 x-source: harvest:secondary-market
