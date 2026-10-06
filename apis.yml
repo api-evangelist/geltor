@@ -43,7 +43,7 @@ x-tier: profiled
 x-tier-reason: enrichment-pass
 specificationVersion: '0.23'
 created: '2026-08-01'
-modified: '2026-08-01'
+modified: '2026-10-06'
 tags:
 - Company
 - Biotechnology
@@ -66,6 +66,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://geltor.com/insights/articles/
+  type: Blog
+- url: https://geltor.com/insights/articles/feed/
+  type: BlogRSS
 - type: Website
   url: https://geltor.com/
 - type: SecondaryMarket
