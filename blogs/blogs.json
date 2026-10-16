@@ -6,11 +6,22 @@
       "error": "HTTPError"
     },
     {
-      "source": "https://geltor.com/solutions/",
-      "feed_url": "https://geltor.com/solutions/feed/",
+      "source": "https://geltor.com/blog/feed/",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://geltor.com/insights/articles/",
+      "feed_url": "https://geltor.com/insights/articles/feed/",
       "title": "",
       "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://geltor.com/insights/articles/feed/",
+      "feed_url": "https://geltor.com/insights/articles/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://geltor.com/solutions/feed/",
@@ -21,7 +32,7 @@
     }
   ],
   "post_count": 1,
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
